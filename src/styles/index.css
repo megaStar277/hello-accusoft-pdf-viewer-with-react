@@ -1,0 +1,12 @@
+/* Force the app height to the size of the browser. */
+html,
+body,
+#root,
+.app-container {
+  height: 100%;
+}
+
+/* Size the viewer as desired. In this case, we fill the browser window. */
+#viewer-container {
+  height: 100%;
+}
