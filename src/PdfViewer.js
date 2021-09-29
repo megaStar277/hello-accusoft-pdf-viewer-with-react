@@ -34,7 +34,7 @@ function PdfViewer (props) {
 }
 
 PdfViewer.propTypes = {
-  sourceDocument: PropTypes.oneOf([
+  sourceDocument: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.instanceOf(Uint8Array)
   ])
